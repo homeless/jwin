@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP:User-Agent} !MSIE\ [56]
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_FILENAME}.jgz -f
+RewriteRule (.*)\.js$ $1\.js.jgz [L]
+AddType "text/javascript" .js.jgz
+AddEncoding gzip .jgz

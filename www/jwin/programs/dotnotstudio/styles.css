@@ -1,0 +1,441 @@
+body
+{ 
+	font-family: Serif; 
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image: url(images/background3.gif); 
+	font-size: 150%; /* initially set to percentage so that ems work without producing miniscule text in IE */
+	margin: 0.5em; 
+}
+
+h1
+{
+	font-family: arial, Helvetica, sans-serif;
+	background-color: #553133;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	vertical-align: middle;
+	text-align: left;
+	line-height: 42px;
+	height: 42px;
+}
+
+h2
+{
+	font-family: arial, Helvetica, sans-serif;
+	color: #553133;
+	font-size: 1.1em;
+	text-align: left;
+}
+
+h3
+{
+	font-family: arial, Helvetica, sans-serif;
+	color: #553133;
+	font-size: 1em;
+	text-align: left;
+}
+
+h4
+{
+	font-family: arial, Helvetica, sans-serif;
+	color: #553133;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+a
+{
+ text-decoration: none; 
+ color: #7B004A; /* grape */
+}
+
+a:hover, a:active
+{ 
+ text-decoration: underline; 
+ color: #C0007A; /* hot-pink */
+}
+
+.code
+{
+ width: 99%;
+ font-family: "Lucida Console", "Lucida Sans Typewriter", Consolas, "Nimbus Mono L", "Liberation Mono", monospace;
+ font-size: 150%;
+ background-color: #FDFBF7; /* off-white with orangey tint */
+ padding-left: 0.5em;
+ color: #832F62; /* #684224; brown */
+}
+
+.VisualBasic pre
+{
+ font-family: "Lucida Console", "Lucida Sans Typewriter", Consolas, "Nimbus Mono L", "Liberation Mono", monospace;
+}
+
+.blockLevel0
+{
+  background-color: #FDFBF7;
+}
+
+.blockLevel1
+{
+  background-color: #F8F3E8;
+}
+
+.blockLevel2
+{
+  background-color: #F3EAD9;
+}
+
+.blockLevel3
+{
+  background-color: #EEE2CA;
+}
+
+.blockLevel4
+{
+  background-color: #E9D9BB;
+}
+
+.blockLevel5
+{
+  background-color: #E3D1AD;
+}
+
+.blockLevel6
+{
+  background-color: #E3CFC1;
+}
+
+.blockLevel7
+{
+  background-color: #F0DCE1;
+}
+
+.blockLevel8
+{
+  background-color: #E9CFD5;
+}
+
+.blockLevel9
+{
+  background-color: #E4C0CD;
+}
+
+.blockLevel10
+{
+  background-color: #DDB3BE;
+}
+
+.blockLevel11
+{
+  background-color: #D8A4B1;
+}
+
+.blockLevel12
+{
+  background-color: #D1E5E5;
+}
+
+.blockLevel13
+{
+  background-color: #C5DFDF;
+}
+
+.blockLevel14
+{
+  background-color: #B8D8D8;
+}
+
+.blockLevel15
+{
+  background-color: #ABD1D1;
+}
+
+.parenLevel0
+{
+  color: #14B4AB;
+}
+
+.parenLevel1
+{
+  color: #1776C7;
+}
+
+.parenLevel2
+{
+  color: #F07878;
+}
+
+.parenLevel3
+{
+  color: #A278F0;
+}
+
+.parenLevel4
+{
+  color: #17C58E;
+}
+
+.parenLevel5
+{
+  color: #DB78F0;
+}
+
+.parenLevel6
+{
+  color: #7E8812;
+}
+
+.code ul
+{
+	padding: 0px;
+}
+
+.code li
+{
+	list-style-image: url(images/space16x16.gif);
+	padding: 0px;
+}
+
+.Document
+{
+ width: 32em;
+ font-size: 1em;
+ background-color: #141414;
+ background-image: url(images/biohazard5.gif);
+ background-position: -24px -36px;
+ position: absolute;
+ left:24px;
+ top:36px;
+ padding-top: 10px;
+ padding-bottom: 30px;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+#AkemiLogo
+{
+	background-color: #553133;
+	color: #FFFFFF;
+	background-image: url(images/AkemiLogoOnBlack_small2.gif); 
+	height: 42px;
+	line-height: 42px;
+	width: 150px;
+}
+
+#AkemiProductName
+{
+	color: #FFF752;
+}
+
+
+#AkemiLogo span
+{
+	position: relative;
+	left: -5000px;
+}
+
+#RestOfPageHeader
+{
+	margin-top: -42px;
+	margin-left: 160px;
+}
+
+#PreliminaryDocumentation
+{
+	color: #990000;
+}
+
+#PageFooter
+{
+	line-height: 42px;
+}
+
+#LinkHome
+{
+	text-align: left;
+}
+
+#LinkCopyright
+{
+ text-align: right;
+ position: relative;
+ margin-top: -42px;
+}
+
+.keyword
+{
+ color: #4A2F1A /* dark brown */
+}
+
+.flow_of_execution /* eg. Exit Sub, Goto */
+{
+ background-color: #E94159; /* something bright */
+ color: white;
+}
+
+.magic_number
+{
+ color: #349394;
+}
+
+.string
+{
+ color: #8400C8;
+ font-family: courier new, courier, serif;
+}
+
+.inline_string
+{
+  font-style: italic;
+}
+
+.inline_sql
+{
+ color: #6969FF;
+ font-family: courier new, courier, serif;
+}
+
+.inline_js
+{
+ color: #A00057;
+ font-family: courier new, courier, serif;
+}
+
+.javascript
+{
+ font-size: 1.2em;
+}
+
+.VisualBasic
+{
+ font-family: comic sans ms;
+}
+
+.comment
+{
+ color: #6C9E16;
+}
+
+.author
+{
+ font-size: 80%;
+ color: #DEDEDE;
+ margin: 0px 0px 0px 0px;
+ float: right;
+}
+
+.parameter
+{
+ font-style: italic;
+}
+
+.codedownload
+{
+ color: #7B004A; /* grape */
+ float: left;
+ font-size: 80%;
+}
+
+.codedownload a
+{
+ font-family: Courier New, Sans-Serif, Courier;
+ font-size: 80%;
+ color: #7B004A; /* grape */
+}
+
+.table /* applies to class "table" not element <table> */
+{
+ background-color: white;
+ color: black;
+ border: 1px solid gray;
+ border-collapse: collapse;
+}
+
+.table table
+{
+ padding: 4px;
+}
+
+.table thead
+{
+ color: #700018; /* dark burgundy */
+ background-color: #EEE3CA; /* orangey gray */
+ font-weight: bold;
+}
+
+.table tbody
+{
+ background-color: #FAF7F0; /* orangey gray (lighter) */
+}
+
+.table td
+{
+ vertical-align: top;
+ border-top: none;
+ border-left: none;
+ border-right: 1px solid gray;
+ border-bottom: 1px solid gray;
+ padding-left: 4px;
+ padding-right: 4px;
+}
+
+.alternate
+{
+ background-color: #ECEEC8;
+}
+
+.codetable
+{
+ font-family: Courier New, Sans-Serif, Courier;
+ font-size: 110%;
+}
+
+.FileList
+{
+ width: 100%;
+ font-family: Courier New, Sans-Serif, Courier;
+ font-size: 0.9em;
+ background-color: #F6EAF6; /* soft pink */
+ padding-left: 0.5em;
+}
+
+.box
+{
+ font-family: arial, Helvetica, Sans-Serif;
+ font-size: 0.9em;
+ background-color: #480820; /*#570926;  dark, dusty red */
+ color: #FFFFF1; /* yellowy */
+ padding: 0.5em;
+ width: 25%;
+ float: right;
+}
+
+.boxlead
+{
+ font-weight:bold;
+ font-size: 105%;
+}
+
+
+.boxtable
+{
+ color: #EBEBDF; /* yellowy white */
+ width: 100%;
+ font-size: 90%;
+}
+
+.boxtable thead
+{
+ color: #EEEFA1; /* yellow */
+}
+
+.boxtable td
+{
+ border-left: 1px solid #7E0E38;
+ border-top: 1px solid #7E0E38;
+ border-right: 1px solid #6C0C30;
+ border-bottom: 1px solid #6C0C30;
+ padding: 4px;
+ vertical-align: top;
+}

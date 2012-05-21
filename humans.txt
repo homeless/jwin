@@ -1,0 +1,3 @@
+jwin is Copyright 2012 homeless coder.
+
+To make it work, make the folder the root folder of your virtual host.
